@@ -1,3 +1,4 @@
+
 /* место для вашего кода */
  
 .header{
@@ -9,6 +10,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items:center;
+    /*grid-template-rows: 105px;*/
 } 
 
 .header__links-list{
@@ -358,5 +360,3 @@
     margin-top: 2px;
     margin-left: 48px;
 }
-
-
