@@ -59,7 +59,7 @@
     padding: 4px 28px 0px 0px;
 }
 
-.address_underline{
+.address_link{
     text-decoration:none;
     border-bottom: 1px solid rgb(0, 0, 0);
     padding-bottom: 0.2px; /*линия под текстом */
@@ -135,9 +135,8 @@
     align-items:flex-end;
     position: absolute;
     z-index: 2;
-    height: 100%;
     width: 100%;
-    padding: 0 50px 51px 82px;;
+    padding: 656px 50px 0 82px;;
 }
 
 .cover__description-text{   
@@ -181,18 +180,18 @@
 }
 
 .lots__card-list{
-    width: 1052px;
+    max-width: 1052px;
     list-style: none;
 
     display: grid;
     gap: 25px;
 
     grid-template-columns:repeat(3, 1fr);
+    margin-bottom: 30px;
 }
 
 .lots__card-list-item{  
     min-height: 563px;
-    /*border: 3px solid #09a6ef;*/
 }
 
 .card-link{
@@ -246,14 +245,13 @@
     padding: 0px 40px 48px 40px;
 }
 
-
 .lots__look-more-link{
     color: #000000;   
     font-size: 20px;
     text-decoration:underline;
     text-underline-offset: 5px;
     font-style:normal;
-    margin: 30px 0 0 40px;
+    margin-left: 40px;
 }
 
 /*секция "Об аукционе"*/
@@ -265,8 +263,10 @@
 .about__column{
     display: grid;
     column-gap: 25px;
+    row-gap: 26px;
     grid-template-columns:334px 1fr;
     grid-template-rows: auto;
+    
 }
 
 .about__logo{
@@ -293,17 +293,15 @@
     font-size: 40px;
     font-style:bold;
     text-transform:uppercase;
-    padding: 133px 0 0 0;
+    padding: 134px 0 75px 0;
+    grid-row: 1/2;
 }
 
 .about__text{
     color: #000000;   
     font-size: 20px;
     font-style:normal;
-}
-
-.about__text_padding{
-    padding: 101px 0 26px 0;
+    align-items: end;
 }
 
 /*Подвал"*/
